@@ -1,0 +1,23 @@
+def sum_difference(array1, array2):
+    """
+    Returns the difference between the sum of the first array and the sum of the second array.
+
+    :param array1: First array of numbers.
+    :param array2: Second array of numbers.
+    :return: The result of sum(array1) - sum(array2).
+    """
+    # Calculate the sum of the first array
+    sum_array1 = sum(array1)
+    
+    # Calculate the sum of the second array
+    sum_array2 = sum(array2)
+    
+    # Calculate the difference
+    difference = sum_array1 - sum_array2
+    
+    return difference
+
+# Example usage:
+array1 = [1, 2, 3, 4, 5]
+array2 = [2, 3, 1]
+print(sum_difference(array1, array2))  # Output: 9
